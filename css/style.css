@@ -1,6 +1,7 @@
 * {
   margin: 0px;
   padding: 0px;
+  box-sizing: border-box;
   font-family: "Roboto", sans-serif;
 }
 
@@ -25,9 +26,18 @@ ul {
   gap: 24px;
 }
 
+img {
+  width: 390px;
+  height: 260px;
+}
+
+.image {
+  object-fit: cover;
+  border-radius: 15px;
+}
+
 .hero {
   background-color: #1f2937;
-  color: ;
 }
 
 .header {
@@ -48,4 +58,37 @@ ul {
   font-size: 18px;
   font-weight: 300;
   color: #e5e7eb;
+  line-height: 1.2;
+  margin: 5px;
+}
+
+.main {
+  height: 400px;
+  justify-content: space-between;
+}
+
+.text {
+  font-size: 48px;
+  font-weight: 700;
+  color: #f9faf8;
+  width: 500px;
+}
+
+.color-blue {
+  background-color: #3882f6;
+}
+
+.button {
+  width: 130px;
+  height: 40px;
+  border-radius: 8px;
+  border-style: none;
+  color: #f9faf8;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.button:hover {
+  background-color: #e5e7eb;
+  color: #1f2937;
 }
