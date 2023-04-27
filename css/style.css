@@ -31,12 +31,12 @@ img {
   height: 260px;
 }
 
-label{
-    font-size: 16px;
-    font-weight: 300;
-    color: #1f2937;
-    text-align: center;
-    padding: 5px;
+label {
+  font-size: 16px;
+  font-weight: 300;
+  color: #1f2937;
+  text-align: center;
+  padding: 5px;
 }
 
 .image {
@@ -104,7 +104,7 @@ label{
 .information {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: stretch;
 }
 
@@ -131,4 +131,30 @@ label{
   flex-direction: column;
   flex-basis: 200px;
   flex-shrink: 0;
+}
+
+.quote {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #e5e7eb;
+}
+
+.quote-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.quote-author {
+  text-align: end;
+  font-size: 18px;
+  width: 860px;
+}
+
+.quote-text {
+  font-size: 36px;
+  font-weight: 300;
+  font-style: italic;
+  width: 860px;
 }
