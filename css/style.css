@@ -185,10 +185,9 @@ label {
   border: 1px solid #fff;
 }
 
-.footer{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 60px;
-    color:
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 60px;
 }
