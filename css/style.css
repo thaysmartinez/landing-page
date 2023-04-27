@@ -158,3 +158,29 @@ label {
   font-style: italic;
   width: 860px;
 }
+
+.call {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.container-call {
+  width: 800px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px;
+  background-color: #3882f6;
+  border-radius: 10px;
+}
+
+.call-title {
+  font-size: 20px;
+  font-weight: 700;
+  margin: 5px;
+  color: #ffffff;
+}
+
+.button-call > button {
+  border: 1px solid #fff;
+}
